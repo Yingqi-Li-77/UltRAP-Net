@@ -44,7 +44,7 @@ class UltraDecoderNMapModel(nn.Module):
         inconstant_maps = predicted_maps[:, 5:, :, :]
 
         # input the constant maps into the simulator and get the loss with the label image
-        rendered_dict = batch_render_method_convolutional_ultrasound(constant_maps, self.z_vals)
+        rendered_dict = batch_render_method_convolutional_ultrasound(constant_maps, self.z_vals, self.device)
         synthesized_img = rendered_dict['intensity_map'][:, None, :, :]
         rendered_dict['inconstant_map'] = inconstant_maps
         rendered_dict['label'] = label_imgs
@@ -74,7 +74,7 @@ class UltraDecoderNMapModel(nn.Module):
         input_ren_imgs = torch.tile(synthesized_img, (1, self.set_size, 1, 1))
         predicted_maps_ren = self.constant_net(input_ren_imgs)
         constant_maps_ren = predicted_maps_ren[:, 0:5, :, :]
-        render_dict_2 = batch_render_method_convolutional_ultrasound(constant_maps_ren, self.z_vals)
+        render_dict_2 = batch_render_method_convolutional_ultrasound(constant_maps_ren, self.z_vals, self.device)
         render_dict_2['inconstant_map'] = predicted_maps_ren[:, 5:, :, :]
 
         # compare the two sets of maps
@@ -113,7 +113,7 @@ class UltraDecoderNMapModel(nn.Module):
         inconstant_maps = predicted_maps[:, 5:, :, :]
 
         # input the constant maps into the renderer and get the loss with the label image
-        rendered_dict = batch_render_method_convolutional_ultrasound(constant_maps, self.z_vals)
+        rendered_dict = batch_render_method_convolutional_ultrasound(constant_maps, self.z_vals, self.device)
         rendered_dict['inconstant_map'] = inconstant_maps
         rendered_dict['input'] = input_imgs
         rendered_dict['label'] = label_imgs
