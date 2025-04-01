@@ -5,6 +5,10 @@ Reverse Approximation of Tissue Properties in Ultrasound Imaging"
 
 
 
+https://github.com/user-attachments/assets/30442edd-84b3-48d2-9b26-ea65b6db53af
+
+
+
 ## Abstract
 Medical ultrasound (US) has been widely used in clinical practices due to its merits of being low-cost, real-time, and radiation-free.
 However, its capability to reveal the underlying tissue properties has not yet been thoroughly studied. In this study, we propose a
