@@ -1,0 +1,7 @@
+numpy==1.21.5
+numpy==1.21.6
+opencv_python==4.8.1.78
+ssim==0.3.0
+torch==1.9.0+cu111
+torch==1.11.0
+torch==1.12.1+cu113
