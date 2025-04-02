@@ -32,9 +32,19 @@ pip install -r requirements.txt
 
 ## Usage
 - Dataset
+  Download the dataset from this link:
+  
+     [https://drive.google.com/drive/folders/16LOMk92x2xzsNkYqW3tUWVXjHAuHOdda?usp=drive_link](https://drive.google.com/drive/folders/1woblVI9tw_KlqJbJUFuoCX3RwJkwPczS?usp=sharing)
+  
+  Labels are stored in `.\data\label`
 - Training
   1. Set the hyperparameters in `config.py`.
   2. Run `training.py`.
+- Testing
+  1. Download the model checkpoint from this link:
+     
+     [https://drive.google.com/drive/folders/16LOMk92x2xzsNkYqW3tUWVXjHAuHOdda?usp=drive_link](https://drive.google.com/drive/folders/1YTdqEQP_9GlXI8ZTsbUkQAPTGMKf5l98?usp=sharing)
+  3. Run `validation.py`.
 
 ## Citation
 If you find our code or paper useful, please cite:
