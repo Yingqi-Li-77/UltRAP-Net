@@ -4,12 +4,13 @@ This repository includes the code and data of the _Advanced Intelligent Systems_
 Reverse Approximation of Tissue Properties in Ultrasound Imaging"
 
 
- <!--https://github.com/user-attachments/assets/73efa5e6-43e9-4032-8e5a-7721c0fd6d16-->
+https://github.com/user-attachments/assets/73efa5e6-43e9-4032-8e5a-7721c0fd6d16
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mSVIivfsRkw/0.jpg)](https://www.youtube.com/watch?v=mSVIivfsRkw)
+<!--[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/mSVIivfsRkw/0.jpg)](https://www.youtube.com/watch?v=mSVIivfsRkw)-->
 
 ## Links:
 Paper: 
+
 YouTube: https://www.youtube.com/watch?v=mSVIivfsRkw
 
 
