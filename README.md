@@ -5,7 +5,11 @@ Reverse Approximation of Tissue Properties in Ultrasound Imaging"
 
 
 
-https://github.com/user-attachments/assets/30442edd-84b3-48d2-9b26-ea65b6db53af
+
+
+
+https://github.com/user-attachments/assets/73efa5e6-43e9-4032-8e5a-7721c0fd6d16
+
 
 
 
@@ -15,7 +19,7 @@ However, its capability to reveal the underlying tissue properties has not yet b
 learning-based framework to reversely approximate tissue property representations with physics-constrained. The shared property is
 extracted from multiple B-mode images acquired with varying dynamic ranges. First, a feature extractor network is used to generate property maps, i.e., attenuation coefficient α, reflection coefficient β, border probability ρb, scattering density ρs and scattering
 amplitude ϕ, capturing the shared physics across distinct inputs, and one perturbation (p) map characterizing the variations caused
-by varying dynamic range. The α-ϕ maps are loosely regularized by rendering them forward to realistic US images using ray-tracingbased rendering. To further enforce the physics constraints, a ranking loss is introduced to align the disparity between two estimated
+by varying dynamic range. The α-ϕ maps are loosely regularized by rendering them forward to realistic US images using ray-tracing-based rendering. To further enforce the physics constraints, a ranking loss is introduced to align the disparity between two estimated
 p maps with the discrepancy between two distinct inputs.
 
 ## Preparation
