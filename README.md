@@ -51,5 +51,12 @@ pip install -r requirements.txt
 If you find our code or paper useful, please cite:
 
 ```commandline
-The citation will be released when the paper production is completed.
+@article{li2025ultrap,
+  title={UltRAP-Net: Reverse Approximation of Tissue Properties in Ultrasound Imaging},
+  author={Li, Yingqi and Kwok, Ka-Wai and Wysocki, Magdalena and Navab, Nassir and Jiang, Zhongliang},
+  journal={Advanced Intelligent Systems},
+  pages={2400865},
+  year={2025},
+  publisher={Wiley Online Library}
+}
 ```
